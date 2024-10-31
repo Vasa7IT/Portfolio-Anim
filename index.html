@@ -249,11 +249,13 @@
 
       <section class="contact section" id="contact">
         <h2 class="section-title" data-aos="fade-down">Contact</h2>
-
         <div class="contact_container bd_grid">
-          <form action="#" class="contact_form">
+          
+          <form action="https://api.web3forms.com/submit" method="POST" class="contact_form">
+            <input type="hidden" name="access_key" value="f4959516-bf2d-46ed-bfc8-8c0467aae54d">
             <input
               type="text"
+              name="name"
               placeholder="Name"
               class="control_input"
               data-aos="fade-right"
@@ -261,13 +263,14 @@
             />
             <input
               type="mail"
+              name="email"
               placeholder="Email"
               class="control_input"
               data-aos="fade-right"
               data-aos-delay="300"
             />
             <textarea
-              name=""
+              name="message"
               id=""
               cols="0"
               rows="10"
@@ -276,45 +279,41 @@
               data-aos-delay="400"
             ></textarea>
 
-            <input
-              type="button"
-              value="Send"
+            <button
+              type="submit"
               class="control_button button"
               data-aos="fade-right"
               data-aos-delay="450"
-            />
+            >Send</button>
           </form>
         </div>
       </section>
 
       <!-- Footer Section -->
       <footer class="footer">
-        <p class="footer_title" data-aos="fade-down">Your name</p>
+        <p class="footer_title nav_logo" data-aos="fade-down">Vasa</p>
 
         <div class="footer_socials">
           <a
-            href="#"
+            href="https://www.facebook.com/balavasa.balavasa.1/"
+            target="_blank"
             class="footer_icon"
             data-aos="fade-down"
-            data-aos-delay="250"
+            data-aos-delay="550"
             ><i class="bx bxl-facebook-circle"></i
           ></a>
+
           <a
-            href="#"
+            href="https://www.linkedin.com/in/balavasan-s-81123722a/"
+            target="_blank"
             class="footer_icon"
             data-aos="fade-down"
-            data-aos-delay="350"
-            ><i class="bx bxl-instagram"></i
+            data-aos-delay="550"
+            ><i class="bx bxl-linkedin"></i
           ></a>
           <a
-            href="#"
-            class="footer_icon"
-            data-aos="fade-down"
-            data-aos-delay="450"
-            ><i class="bx bxl-twitter"></i
-          ></a>
-          <a
-            href="#"
+            href="https://github.com/Vasa7IT"
+            target="_blank"
             class="footer_icon"
             data-aos="fade-down"
             data-aos-delay="550"
@@ -322,7 +321,7 @@
           ></a>
         </div>
 
-        <p data-aos="fade-down" data-aos-delay="650">
+        <p>
           &#169; 2024 copyright all right reserved
         </p>
       </footer>
